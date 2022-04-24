@@ -1,4 +1,4 @@
-FROM maven:3.6.0-jdk-11-slim AS build
+FROM maven:3.8.5-jdk-11-slim AS build
 ADD /var/lib/jenkins/workspace/demo/test-maven/src/ /home
 ADD pom.xml /home
 RUN mvn -f /home/pom.xml clean package
