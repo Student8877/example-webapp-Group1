@@ -24,18 +24,5 @@
     </dependency>
     
   </dependencies>
-	<build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <configuration>
-                <source>3.18</source>
-                <target>3.18</target>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
-	
 	
 </project>
